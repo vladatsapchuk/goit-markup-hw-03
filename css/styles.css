@@ -171,10 +171,6 @@ a {
   margin: 0;
 }
 
-.our-team {
-  padding: 120px 0;
-}
-
 .our-team-h2 {
   margin-bottom: 72px;
 }
@@ -186,9 +182,6 @@ a {
   margin: 0;
 }
 
-.features-h3 {
-  margin-bottom: 8px;
-}
 
 .features-item {
   width: 264px;
@@ -203,6 +196,7 @@ a {
 }
 .our-team {
   background-color:#F4F4FD;
+  padding: 120px 0;
 }
 
 .our-team-member {
@@ -219,7 +213,32 @@ a {
   gap: 32px;
 }
 
+.our-portfolio {
+ padding: 120px 0;
+}
+.our-portfolio-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  column-gap: 24px; 
+  row-gap: 48px;
+}
 
+.our-portfolio-h2 {
+  margin-bottom: 72px;
+}
+
+.our-portfolio-item {
+  background-color: #FFF;
+  display: flex;
+  width: 360px;
+  height: 420px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
 
 .features-text,
 .our-team-text,
@@ -230,9 +249,7 @@ a {
   letter-spacing: 0.32px;
   text-transform: capitalize;
 }
-.our-team {
-  background-color:#F4F4FD;
-}
+
 .heading-two {
   color:#2E2F42;
   text-align: center;
@@ -245,6 +262,8 @@ a {
 
 .page-footer {
   background-color:#2E2F42;
+  padding: 100px 0;
+
 }
 
 .footer-text {
@@ -253,5 +272,7 @@ a {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px; 
+  width: 264px;
+  padding-top: 17px;
 }
  
