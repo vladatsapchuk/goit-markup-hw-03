@@ -247,6 +247,17 @@ a {
 .our-portfolio {
  padding: 120px 0;
 }
+
+.portfolio-card-container {
+   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
+   border-top: none;
+}
+
+.our-portfolio-text {
+  margin-bottom: 8px;
+}
+
 .our-portfolio-list {
   display: flex;
   padding: 0;
